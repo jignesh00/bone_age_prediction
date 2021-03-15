@@ -55,7 +55,7 @@ def upload():
      #   print('[PREDICTED CLASSES]: {}'.format(pred_class))
       #   print('[RESULT]: {}'.format(result))
         
-        print('[preds]: {}'.format(preds))
+        print('[Result]: {}'.format(preds),'months')
         return preds
     
     return None
