@@ -49,13 +49,15 @@ def upload():
         
         # make prediction about this image's class
         preds = model_predict(file_path)
-        print(preds)
+        pred = str(preds)
+	
+        print(pred)
  #        pred_class = decode_predictions(preds, top=10)
     #    result = str(pred_class[0][0][1])
      #   print('[PREDICTED CLASSES]: {}'.format(pred_class))
       #   print('[RESULT]: {}'.format(result))
         
-        print('[Result]: {}'.format(preds),'months')
+        print('[Result]: {}'.format(preds))
         return preds
     
     return None
