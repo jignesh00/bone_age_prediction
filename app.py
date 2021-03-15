@@ -57,10 +57,10 @@ def upload():
      #   print('[PREDICTED CLASSES]: {}'.format(pred_class))
       #   print('[RESULT]: {}'.format(result))
         
-        print('[Result]: {}'.format(preds))
-        return preds
+        print('[Result]: {}'.format(pred))
+        return pred
     
-    return preds
+    return pred
 
 
 if __name__ == '__main__':
