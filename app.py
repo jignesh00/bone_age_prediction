@@ -60,7 +60,7 @@ def upload():
         print('[Result]: {}'.format(preds))
         return preds
     
-    return None
+    return preds
 
 
 if __name__ == '__main__':
